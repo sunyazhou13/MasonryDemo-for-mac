@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		8F79B40B1DAF743B00CEC196 /* TestVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F79B4091DAF743B00CEC196 /* TestVC.m */; };
 		8F79B40C1DAF743B00CEC196 /* TestVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8F79B40A1DAF743B00CEC196 /* TestVC.xib */; };
+		8F984AE81DB0662E00396BE8 /* PriorityViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F984AE61DB0662E00396BE8 /* PriorityViewController.m */; };
+		8F984AE91DB0662E00396BE8 /* PriorityViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8F984AE71DB0662E00396BE8 /* PriorityViewController.xib */; };
 		8FA1754D1DAF31EC00DA48C9 /* RemarkContrainsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FA1754B1DAF31EC00DA48C9 /* RemarkContrainsViewController.m */; };
 		8FA1754E1DAF31EC00DA48C9 /* RemarkContrainsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8FA1754C1DAF31EC00DA48C9 /* RemarkContrainsViewController.xib */; };
 		8FA175521DAF68B000DA48C9 /* UsingContrainsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FA175501DAF68B000DA48C9 /* UsingContrainsViewController.m */; };
@@ -37,6 +39,9 @@
 		8F79B4081DAF743B00CEC196 /* TestVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestVC.h; sourceTree = "<group>"; };
 		8F79B4091DAF743B00CEC196 /* TestVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestVC.m; sourceTree = "<group>"; };
 		8F79B40A1DAF743B00CEC196 /* TestVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TestVC.xib; sourceTree = "<group>"; };
+		8F984AE51DB0662E00396BE8 /* PriorityViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PriorityViewController.h; sourceTree = "<group>"; };
+		8F984AE61DB0662E00396BE8 /* PriorityViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PriorityViewController.m; sourceTree = "<group>"; };
+		8F984AE71DB0662E00396BE8 /* PriorityViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PriorityViewController.xib; sourceTree = "<group>"; };
 		8FA1754A1DAF31EC00DA48C9 /* RemarkContrainsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RemarkContrainsViewController.h; sourceTree = "<group>"; };
 		8FA1754B1DAF31EC00DA48C9 /* RemarkContrainsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RemarkContrainsViewController.m; sourceTree = "<group>"; };
 		8FA1754C1DAF31EC00DA48C9 /* RemarkContrainsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RemarkContrainsViewController.xib; sourceTree = "<group>"; };
@@ -155,6 +160,9 @@
 				8F79B4081DAF743B00CEC196 /* TestVC.h */,
 				8F79B4091DAF743B00CEC196 /* TestVC.m */,
 				8F79B40A1DAF743B00CEC196 /* TestVC.xib */,
+				8F984AE51DB0662E00396BE8 /* PriorityViewController.h */,
+				8F984AE61DB0662E00396BE8 /* PriorityViewController.m */,
+				8F984AE71DB0662E00396BE8 /* PriorityViewController.xib */,
 			);
 			name = Examples;
 			sourceTree = "<group>";
@@ -232,6 +240,7 @@
 				8FA1754E1DAF31EC00DA48C9 /* RemarkContrainsViewController.xib in Resources */,
 				8FEB53491DAE22DC00E46451 /* UpdateContrainsViewController.xib in Resources */,
 				8F79B40C1DAF743B00CEC196 /* TestVC.xib in Resources */,
+				8F984AE91DB0662E00396BE8 /* PriorityViewController.xib in Resources */,
 				8FEB53301DAE0DC500E46451 /* Assets.xcassets in Resources */,
 				8FEB53441DAE15BF00E46451 /* BasicViewController.xib in Resources */,
 				8FA175531DAF68B000DA48C9 /* UsingContrainsViewController.xib in Resources */,
@@ -302,6 +311,7 @@
 				8FA1755C1DAF719C00DA48C9 /* AspectFitViewController.m in Sources */,
 				8FEB53431DAE15BF00E46451 /* BasicViewController.m in Sources */,
 				8FA175571DAF707300DA48C9 /* CompositeEdgesViewController.m in Sources */,
+				8F984AE81DB0662E00396BE8 /* PriorityViewController.m in Sources */,
 				8FEB532B1DAE0DC500E46451 /* AppDelegate.m in Sources */,
 				8FEB53481DAE22DC00E46451 /* UpdateContrainsViewController.m in Sources */,
 				8FEB533D1DAE0F3700E46451 /* RootViewController.m in Sources */,

@@ -13,10 +13,9 @@
 #import "UsingContrainsViewController.h"
 #import "CompositeEdgesViewController.h"
 #import "AspectFitViewController.h"
-
+#import "PriorityViewController.h"
 #import "TestVC.h"
 @interface RootViewController ()
-
 @end
 
 @implementation RootViewController
@@ -61,6 +60,10 @@
     TestVC *vc = [[TestVC alloc] initWithNibName:@"TestVC" bundle:[NSBundle mainBundle]];
     [self presentViewControllerAsModalWindow:vc];
     
+}
+- (IBAction)priority:(id)sender {
+    PriorityViewController *vc = [[PriorityViewController alloc] initWithNibName:@"PriorityViewController" bundle:[NSBundle mainBundle]];
+    [self presentViewControllerAsModalWindow:vc];
 }
 
 
